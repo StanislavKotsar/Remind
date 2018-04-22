@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0F02A6208B3D05007CC5D5 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0F02A5208B3D05007CC5D5 /* AlertService.swift */; };
+		DF38A27F2089113200CCA6E5 /* UNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF38A27E2089113200CCA6E5 /* UNService.swift */; };
+		DF5C4304208BC1A200E5F0AB /* CLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5C4303208BC1A200E5F0AB /* CLService.swift */; };
+		DF5C4306208CC3CC00E5F0AB /* NotificationAttachmentID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5C4305208CC3CC00E5F0AB /* NotificationAttachmentID.swift */; };
+		DF5C4309208CC8AA00E5F0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5C4308208CC8AA00E5F0AB /* Assets.xcassets */; };
+		DF5C430F208CCA7E00E5F0AB /* TimeAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5C430C208CCA7E00E5F0AB /* TimeAlert.png */; };
+		DF5C4310208CCA7E00E5F0AB /* DateAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5C430D208CCA7E00E5F0AB /* DateAlert.png */; };
+		DF5C4311208CCA7E00E5F0AB /* LocationAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5C430E208CCA7E00E5F0AB /* LocationAlert.png */; };
+		DF5C4315208CE40D00E5F0AB /* NotificationActionID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5C4314208CE40D00E5F0AB /* NotificationActionID.swift */; };
+		DF5C4317208CE7F300E5F0AB /* NotificationCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5C4316208CE7F300E5F0AB /* NotificationCategory.swift */; };
 		DF6FC2912087BDD7007A6C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FC2902087BDD7007A6C7C /* AppDelegate.swift */; };
 		DF6FC2932087BDD7007A6C7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FC2922087BDD7007A6C7C /* ViewController.swift */; };
 		DF6FC2962087BDD7007A6C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6FC2942087BDD7007A6C7C /* Main.storyboard */; };
-		DF6FC2982087BDDA007A6C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6FC2972087BDD9007A6C7C /* Assets.xcassets */; };
 		DF6FC29B2087BDDA007A6C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6FC2992087BDDA007A6C7C /* LaunchScreen.storyboard */; };
+		DF6FC2A72087BFEF007A6C7C /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FC2A62087BFEF007A6C7C /* ShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF0F02A5208B3D05007CC5D5 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		DF38A27E2089113200CCA6E5 /* UNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNService.swift; sourceTree = "<group>"; };
+		DF5C4303208BC1A200E5F0AB /* CLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLService.swift; sourceTree = "<group>"; };
+		DF5C4305208CC3CC00E5F0AB /* NotificationAttachmentID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAttachmentID.swift; sourceTree = "<group>"; };
+		DF5C4308208CC8AA00E5F0AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = NotificationAssets/Assets.xcassets; sourceTree = "<group>"; };
+		DF5C430C208CCA7E00E5F0AB /* TimeAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeAlert.png; sourceTree = "<group>"; };
+		DF5C430D208CCA7E00E5F0AB /* DateAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DateAlert.png; sourceTree = "<group>"; };
+		DF5C430E208CCA7E00E5F0AB /* LocationAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationAlert.png; sourceTree = "<group>"; };
+		DF5C4314208CE40D00E5F0AB /* NotificationActionID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationActionID.swift; sourceTree = "<group>"; };
+		DF5C4316208CE7F300E5F0AB /* NotificationCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCategory.swift; sourceTree = "<group>"; };
 		DF6FC28D2087BDD7007A6C7C /* Remind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF6FC2902087BDD7007A6C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF6FC2922087BDD7007A6C7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF6FC2952087BDD7007A6C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF6FC2972087BDD9007A6C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF6FC29A2087BDDA007A6C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF6FC29C2087BDDA007A6C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6FC2A62087BFEF007A6C7C /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,64 @@
 		DF6FC28F2087BDD7007A6C7C /* Remind */ = {
 			isa = PBXGroup;
 			children = (
-				DF6FC2902087BDD7007A6C7C /* AppDelegate.swift */,
-				DF6FC2922087BDD7007A6C7C /* ViewController.swift */,
-				DF6FC2942087BDD7007A6C7C /* Main.storyboard */,
-				DF6FC2972087BDD9007A6C7C /* Assets.xcassets */,
-				DF6FC2992087BDDA007A6C7C /* LaunchScreen.storyboard */,
+				DF6FC2A52087BE6B007A6C7C /* Model */,
+				DF6FC2A42087BE61007A6C7C /* View */,
+				DF6FC2A32087BE50007A6C7C /* Controller */,
+				DF6FC2A22087BE3C007A6C7C /* Service */,
 				DF6FC29C2087BDDA007A6C7C /* Info.plist */,
 			);
 			path = Remind;
+			sourceTree = "<group>";
+		};
+		DF6FC2A22087BE3C007A6C7C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DF38A27E2089113200CCA6E5 /* UNService.swift */,
+				DF0F02A5208B3D05007CC5D5 /* AlertService.swift */,
+				DF5C4303208BC1A200E5F0AB /* CLService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DF6FC2A32087BE50007A6C7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF6FC2A62087BFEF007A6C7C /* ShadowView.swift */,
+				DF6FC2902087BDD7007A6C7C /* AppDelegate.swift */,
+				DF6FC2922087BDD7007A6C7C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF6FC2A42087BE61007A6C7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF5C4308208CC8AA00E5F0AB /* Assets.xcassets */,
+				DF6FC2A82087C643007A6C7C /* NotificationAssets */,
+				DF6FC2992087BDDA007A6C7C /* LaunchScreen.storyboard */,
+				DF6FC2942087BDD7007A6C7C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF6FC2A52087BE6B007A6C7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF5C4305208CC3CC00E5F0AB /* NotificationAttachmentID.swift */,
+				DF5C4314208CE40D00E5F0AB /* NotificationActionID.swift */,
+				DF5C4316208CE7F300E5F0AB /* NotificationCategory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF6FC2A82087C643007A6C7C /* NotificationAssets */ = {
+			isa = PBXGroup;
+			children = (
+				DF5C430D208CCA7E00E5F0AB /* DateAlert.png */,
+				DF5C430E208CCA7E00E5F0AB /* LocationAlert.png */,
+				DF5C430C208CCA7E00E5F0AB /* TimeAlert.png */,
+			);
+			path = NotificationAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +193,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF6FC29B2087BDDA007A6C7C /* LaunchScreen.storyboard in Resources */,
-				DF6FC2982087BDDA007A6C7C /* Assets.xcassets in Resources */,
+				DF5C4310208CCA7E00E5F0AB /* DateAlert.png in Resources */,
+				DF5C4309208CC8AA00E5F0AB /* Assets.xcassets in Resources */,
+				DF5C4311208CCA7E00E5F0AB /* LocationAlert.png in Resources */,
 				DF6FC2962087BDD7007A6C7C /* Main.storyboard in Resources */,
+				DF5C430F208CCA7E00E5F0AB /* TimeAlert.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5C4306208CC3CC00E5F0AB /* NotificationAttachmentID.swift in Sources */,
+				DF5C4304208BC1A200E5F0AB /* CLService.swift in Sources */,
+				DF6FC2A72087BFEF007A6C7C /* ShadowView.swift in Sources */,
 				DF6FC2932087BDD7007A6C7C /* ViewController.swift in Sources */,
+				DF38A27F2089113200CCA6E5 /* UNService.swift in Sources */,
 				DF6FC2912087BDD7007A6C7C /* AppDelegate.swift in Sources */,
+				DF0F02A6208B3D05007CC5D5 /* AlertService.swift in Sources */,
+				DF5C4315208CE40D00E5F0AB /* NotificationActionID.swift in Sources */,
+				DF5C4317208CE7F300E5F0AB /* NotificationCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
